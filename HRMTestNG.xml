@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HRM Test Suite">
+
+	<test thread-count="5" name="Pending Leave Request Test Case">
+
+		<classes>
+			<class name="TestCases.Test_Pending_Leave_Request" />
+		</classes>
+	</test>
+
+	 <test name="Check User Role Test Case">
+      
+      <classes> 
+      <class name="TestCases.Test_User_Role"/>
+    </classes>
+    
+  </test> 
+	<!-- Test -->
+
+
+	<test name="My Claim Test Case">
+
+		<classes>
+			<class name="TestCases.Test_My_Claim" />
+			<!--<class name="TestCases.Test_Assign_claim" /> -->
+		</classes>
+
+	</test>
+	<!-- Test -->
+
+<!--
+	<test name="Assign Claim Test Case">
+
+		<classes>
+			<class name="TestCases.Test_Assign_claim" />
+		</classes>
+
+	</test>  Test -->
+</suite> <!-- Suite -->
